@@ -2,14 +2,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-
+import burger from '../assets/burger.webp'
+import pizza from '../assets/pizza.jpg'
+import fries from '../assets/fries.avif'
+import drinks from '../assets/drinks.jpg'
 const FeaturedItems = () => {
   const navigate = useNavigate(); // Initialize navigate function
   const items = [
-    { name: "Burger", price: "$5.99", image: "/path/to/burger.jpg" },
-    { name: "Pizza", price: "$8.99", image: "/path/to/pizza.jpg" },
-    { name: "Fries", price: "$2.99", image: "/path/to/fries.jpg" },
-    { name: "Drink", price: "$1.99", image: "/path/to/drink.jpg" },
+    { name: "Burger", price: "$5.99", image: burger },
+    { name: "Pizza", price: "$8.99", image: pizza },
+    { name: "Fries", price: "$2.99", image: fries },
+    { name: "Drink", price: "$1.99", image: drinks },
   ];
 
   const handleAddToCart = (item) => {

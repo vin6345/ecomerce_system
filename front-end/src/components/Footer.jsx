@@ -20,10 +20,10 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <p>123 Fast Food Street</p>
-            <p>Foodville, FD 12345</p>
+            <p>123 heh</p>
+            <p>lee an</p>
             <p>Phone: (123) 456-7890</p>
-            <p>Email: info@fastbite.com</p>
+            <p>Email: leeAn@gmail.com</p>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
